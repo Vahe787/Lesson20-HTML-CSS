@@ -15,6 +15,11 @@ body {
   z-index: 1;
 }
 
+.logo img {
+  position: absolute;
+  width: 210px;
+}
+
 .main-nav {
   margin-left: 200px;
 }
@@ -115,14 +120,9 @@ a {
 
 .chelseatext p {
   padding: 0 25px;
-  color: white;
+  color: rgb(221, 220, 220);
   font-size: 12px;
   text-align: center;
-}
-
-.logo img {
-  position: absolute;
-  width: 210px;
 }
 
 .transfer {
