@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("https://wallpapercave.com/wp/wp7245862.jpg");
+  background-size: cover;
+}
+.main-header {
+  position: fixed;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.main-nav {
+  margin-left: 200px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 30px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+  text-shadow: 4px 2px 3px white;
+}
+
+.main-header a:hover {
+  color: #4ba2ff;
+  font-size: 38px;
+  text-shadow: 4px 2px 1px black;
+}
+
+.site-name {
+  float: right;
+  margin-right: 100px;
+}
+.sites-name {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  animation: blur 0.75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
+      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
+  }
+}
+
+.group {
+  display: inline-block;
+  margin: 0;
+  padding: 130px 0 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 700px;
+  height: 500px;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+.chelseatext {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 500px;
+  width: 340px;
+}
+
+.chelseatext p {
+  padding: 0 25px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.logo img {
+  position: absolute;
+  width: 210px;
+}
+
+.transfer {
+  margin-left: 30px;
+  width: 23%;
+}
+
+.transfers {
+  font-size: 60px;
+  color: rgb(4, 45, 133);
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  animation: blur 0.8s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
+      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
+  }
+}
+
+.main-section {
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.news1 {
+  width: 33.1%;
+  height: 500px;
+  background: url("https://121quotes.com/wp-content/uploads/2020/03/ronaldo-hd-wallpaper-juventus-683x1024.jpg");
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  font-family: Arial;
+}
+.news2 {
+  width: 33.1%;
+  height: 500px;
+  background: url("https://i.pinimg.com/736x/ce/a4/27/cea427a458166b2dada8bf5f38a69e02.jpg");
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  font-family: Arial;
+}
+.news3 {
+  width: 33.1%;
+  height: 500px;
+  background: url("https://armsport.am/wp-content/uploads/2020/02/GettyImages-1199627371.jpg");
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  font-family: Arial;
+}
+
+.cris {
+  margin-top: 200px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.serg {
+  margin-top: 200px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.miki {
+  margin-top: 200px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.main-footer {
+  width: 100%;
+  height: 660px;
+}
+
+.video {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.footer-video-text {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0 0 0;
+  color: rgb(108, 27, 189);
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  animation: blur 0.8s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
+      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
+      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
+      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
+  }
+}
