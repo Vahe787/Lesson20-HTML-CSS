@@ -76,8 +76,9 @@ a {
 }
 
 .video-div {
+  width: 100%;
   margin: 30px 50px;
-  padding: 90px;
+  padding: 90px 110px;
 }
 
 .video-div iframe {
@@ -95,6 +96,6 @@ a {
 .euro-name h2 {
   text-align: center;
   font-size: 70px;
-  color: rgb(149, 169, 201);
+  color: rgb(199, 199, 199);
   text-shadow: 15px 10px 5px black;
 }
