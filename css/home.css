@@ -17,7 +17,7 @@ body {
 
 .logo img {
   position: absolute;
-  width: 210px;
+  width: 16%;
 }
 
 .main-nav {
@@ -41,29 +41,9 @@ a {
   text-shadow: 4px 2px 1px black;
 }
 
-.site-name {
+.site-name img {
+  width: 9%;
   float: right;
-  margin-right: 100px;
-}
-.sites-name {
-  text-align: center;
-  font-size: 60px;
-  color: #fff;
-  letter-spacing: -4px;
-  text-transform: uppercase;
-  animation: blur 0.75s ease-out infinite;
-  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
-}
-
-@keyframes blur {
-  from {
-    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
-      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
-      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
-      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
-  }
 }
 
 .group {
@@ -76,7 +56,7 @@ a {
 }
 
 .slider {
-  width: 700px;
+  width: 758px;
   height: 500px;
   overflow: hidden;
 }
@@ -97,7 +77,7 @@ a {
 }
 
 .slide img {
-  width: 700px;
+  width: 758px;
   height: 500px;
 }
 

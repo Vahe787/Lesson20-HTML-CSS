@@ -18,7 +18,7 @@ body {
 
 .logo img {
   position: absolute;
-  width: 210px;
+  width: 16%;
 }
 
 .main-nav {
@@ -42,45 +42,26 @@ a {
   text-shadow: 4px 2px 1px black;
 }
 
-.site-name {
+.site-name img {
+  width: 9%;
   float: right;
-  margin-right: 100px;
-}
-.sites-name {
-  text-align: center;
-  font-size: 60px;
-  color: #fff;
-  letter-spacing: -4px;
-  text-transform: uppercase;
-  animation: blur 0.75s ease-out infinite;
-  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
-}
-
-@keyframes blur {
-  from {
-    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
-      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
-      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
-      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
-  }
 }
 
 .main-section {
-  position: absolute;
   width: 100%;
-  margin-top: 100px;
+  padding: 10% 9%;
 }
 
 .news1 {
-  margin-left: 15%;
-  padding: 30px;
+  padding: 40px;
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .news1 img {
-  width: 270px;
+  width: 350px;
 }
 
 .news-text {
@@ -90,4 +71,55 @@ a {
   font-size: 25px;
   text-align: center;
   transform: 0.5s;
+}
+
+.main-comment textarea {
+  width: 100vh;
+  padding: 12px;
+  border: 1px solid #ccc;
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 20px;
+}
+
+input {
+  background-color: #145eff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: #0a02a5;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 60px;
+  display: flex;
+}
+
+.comment-text {
+  width: 100vh;
+  margin-top: 10%;
+  padding: 12px;
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  animation: blur 0.75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff;
+  }
 }
