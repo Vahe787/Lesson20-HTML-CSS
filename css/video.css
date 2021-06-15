@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  background: url("https://pbs.twimg.com/media/ETT7SnnWAAEYsuH.jpg");
+  background: url("https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/12/13/15446786929882.jpg");
   background-size: cover;
 }
 .main-header {
@@ -17,11 +17,16 @@ body {
 
 .logo img {
   position: absolute;
-  width: 210px;
+  width: 16%;
 }
 
 .main-nav {
   margin-left: 200px;
+}
+
+.site-name img {
+  width: 9%;
+  float: right;
 }
 
 a {
@@ -41,35 +46,8 @@ a {
   text-shadow: 4px 2px 1px black;
 }
 
-.site-name {
-  float: right;
-  margin-right: 100px;
-}
-.sites-name {
-  text-align: center;
-  font-size: 60px;
-  color: #fff;
-  letter-spacing: -4px;
-  text-transform: uppercase;
-  animation: blur 0.75s ease-out infinite;
-  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
-}
-
-@keyframes blur {
-  from {
-    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
-      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff,
-      0px 0px 50px #7b96b8, 0px 0px 150px #7b96b8, 0px 10px 100px #7b96b8,
-      0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8, 0px 10px 100px #7b96b8,
-      0px -10px 100px #7b96b8, 0px -10px 100px #7b96b8;
-  }
-}
-
 .video-main {
-  position: absolute;
   width: 100%;
-  margin-top: 100px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -77,7 +55,7 @@ a {
 
 .video-div {
   width: 100%;
-  margin: 30px 50px;
+  margin: 120px 50px;
   padding: 90px 110px;
 }
 
@@ -97,5 +75,15 @@ a {
   text-align: center;
   font-size: 70px;
   color: rgb(199, 199, 199);
-  text-shadow: 15px 10px 5px black;
+  text-transform: uppercase;
+  animation: blur 0.75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff,
+      0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff;
+  }
 }
