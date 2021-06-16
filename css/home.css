@@ -237,9 +237,9 @@ a {
     display: block;
   }
 
-  s .chelseatext p {
+  .chelseatext p {
     width: 100%;
-    font-size: 70%;
+    font-size: 40%;
     padding: 7%;
   }
   .slider {
