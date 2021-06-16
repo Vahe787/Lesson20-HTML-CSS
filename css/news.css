@@ -137,13 +137,12 @@ input:hover {
 
   .main-news {
     width: 100%;
-    padding: 0;
   }
   .main-news img {
     width: 40%;
   }
   .news1 p {
-    font-size: 40%;
+    font-size: 10%;
     padding: 10%;
   }
   .news1 {
