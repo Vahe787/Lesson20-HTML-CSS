@@ -50,7 +50,6 @@ a {
   display: flex;
   margin: 0;
   padding: 12% 8%;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -231,14 +230,14 @@ a {
   }
   .main-nav a {
     font-size: 100%;
-    padding: 0 2%;
+    padding: 0 5.5%;
   }
 
   .main-section {
     display: block;
   }
 
-  .chelseatext p {
+  s .chelseatext p {
     width: 100%;
     font-size: 70%;
     padding: 7%;
